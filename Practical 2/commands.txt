@@ -1,0 +1,16 @@
+Step 1: Compile the IDL to Generate Stub and Skeleton Code:
+Use the IDL compiler (idlj) to generate Java stub and skeleton code from the IDL file:
+>> idlj -fall Calculator.idl
+This will generate Java files in the CalculatorApp package.
+
+Step 2:Compile all Java files:
+>> javac *.java CalculatorApp/*.java
+
+Step 3:Start the ORB server:
+>> tnameserv -ORBInitialPort 1050 &
+
+Step 4:Run the server:
+>> java CalculatorServer -ORBInitialPort 1050 -ORBInitialHost localhost
+
+Step 5:Run the client:
+>> java CalculatorClient -ORBInitialPort 1050 -ORBInitialHost localhost

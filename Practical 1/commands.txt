@@ -1,0 +1,11 @@
+Step 1: Open Terminal (compile all files)
+>> javac *.java
+
+Step 2: 
+>> rmiregistry
+
+Step 3: Open new Terminal 
+>> Java Server
+
+Step 4: Open new Terminal 
+>> Java Client
