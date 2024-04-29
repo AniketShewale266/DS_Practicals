@@ -1,0 +1,16 @@
+
+
+javac -classpath "D:\Distributed System Practicals\mpj-v0_44\lib\mpj.jar" DistributedSum.java
+
+*** javac -classpath "C:\mpjexpress\mpj-v0_44\lib\mpj.jar" DistributedSum.java ***
+
+*** "C:\mpjexpress\mpj-v0_44\bin\mpjrun.bat" -np 3 DistributedSum ***
+
+
+
+
+my file structure are:
+lib
+-> mpj.jar
+mpj-v0_44
+DistributedSum.java

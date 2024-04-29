@@ -1,0 +1,5 @@
+>> pip install Flask
+
+>> python web_service.py
+
+>> python distributed_application.py
